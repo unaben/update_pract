@@ -14,15 +14,13 @@ const App = () => {
     email: "",
   });
 
-  const handleEditFormChange = (e) => {
-    e.preventDefault();
+  const handleEditFormChange = (e) => { 
     const { name, value } = e.target;
     const newData = { ...editFormData, [name]: value };
     setEditFormData(newData);
   };
 
-  const handleEditClick = (e, contact) => {
-    e.preventDefault();
+  const handleEditClick = (contact) => {
     setEditContactId(contact.id);
     const { fullName, address, phone_number, email } = contact;
     const formValues = {

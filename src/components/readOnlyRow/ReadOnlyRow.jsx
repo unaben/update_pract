@@ -9,7 +9,7 @@ const ReadOnlyRow = ({ handleEditClick, ...contact }) => {
       <h3>{contact.email}</h3>
       <button
         type="button"
-        onClick={(e) => handleEditClick(e, contact)}
+        onClick={() => handleEditClick(contact)}
         style={{
           backgroundColor: "steelblue",
           padding: "5px",

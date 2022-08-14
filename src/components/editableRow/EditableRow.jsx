@@ -10,8 +10,6 @@ const EditableRow = (props) => {
     setEditContactId,
   } = props;
 
-  console.log("editFormData:", editFormData);
-
   const handleEditFormSubmit = (e) => {
     e.preventDefault();
 
