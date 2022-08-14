@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "fullName": "Nathan King",
+    "address": "3 Water front street",
+    "phone_number": "333-444-555",
+    "email": "Kingnath@natlymail.com"
+  },
+  {
+    "id": 2,
+    "fullName": "Steven Rico",
+    "address": "6 New Heaven Avenue",
+    "phone_number": "555-999-444",
+    "email": "steven.rico@allmail.com"
+  },
+  {
+    "id": 3,
+    "fullName": "ALana Ferrari",
+    "address": "12 Newton Allen Road",
+    "phone_number": "999-111-333",
+    "email": "alana@afromail.com"
+  },
+  {
+    "id": 4,
+    "fullName": "Vicktorija Zamborite",
+    "address": "43 HeartLand Garden",
+    "phone_number": "555-141-393",
+    "email": "vic@brotamail.com"
+  }
+]
